@@ -1,0 +1,179 @@
+{
+	Continent = (
+		{
+			ContinentName = Asia;
+			Countries = (
+				{
+					CountryName = Israel;
+					Cities = (
+						{
+							CityName = Akko;
+							Location = (
+								{
+									lat = "32.933052";
+									lon = "35.082678";
+								},
+							);
+						},
+						{
+							CityName = Haifa;
+							Location = (
+								{
+									lat = "32.830361";
+									lon = "34.974338";
+								},
+							);
+						},
+						{
+							CityName = "Tel-Aviv";
+							Location = (
+								{
+									lat = "32.066158";
+									lon = "34.777819";
+								},
+							);
+						},
+						{
+							CityName = Jerusalem;
+							Location = (
+								{
+									lat = "31.768319";
+									lon = "35.213710";
+								},
+							);
+						},
+						{
+							CityName = Eilat;
+							Location = (
+								{
+									lat = "29.557669";
+									lon = "34.951925";
+								},
+							);
+						},
+						{
+							CityName = Nahrya;
+							Location = (
+								{
+									lat = "33.011352";
+									lon = "35.094670";
+								},
+							);
+						},
+						{
+							CityName = "Kiryat Yam";
+							Location = (
+								{
+									lat = "32.849276";
+									lon = "35.068929";
+								},
+							);
+						},
+						{
+							CityName = Tibires;
+							Location = (
+								{
+									lat = "32.795859";
+									lon = "35.530973";
+								},
+							);
+						},
+						{
+							CityName = Ashdod;
+							Location = (
+								{
+									lat = "31.804381";
+									lon = "34.655314";
+								},
+							);
+						},
+						{
+							CityName = Beersheba;
+							Location = (
+								{
+									lat = "31.252973";
+									lon = "34.791462";
+								},
+							);
+						},
+					);
+				},
+			);
+		},
+		{
+			ContinentName = Europ;
+			Countries = (
+				{
+					CountryName = France;
+					Cities = (
+						{
+							CityName = Paris;
+							Location = (
+								{
+									lat = "48.856614";
+									lon = "2.352222";
+								},
+							);
+						},
+						{
+							CityName = Marseille;
+							Location = (
+								{
+									lat = "43.296482";
+									lon = "5.369780";
+								},
+							);
+						},
+					);
+				},
+			);
+		},
+		{
+			ContinentName = Africa;
+			Countries = (
+				{
+					CountryName = Eygpt;
+					Cities = (
+						{
+							CityName = Cairo;
+							Location = (
+								{
+									lat = "30.044420";
+									lon = "31.235712";
+								},
+							);
+						},
+						{
+							CityName = Alexandria;
+							Location = (
+								{
+									lat = "31.200092";
+									lon = "29.918739";
+								},
+							);
+						},
+					);
+				},
+			);
+		},
+		{
+			ContinentName = "South America";
+			Countries = (
+				{
+					CountryName = Brazil;
+					Cities = (
+						{
+							CityName = "Rio de Janeiro";
+							Location = (
+								{
+									lat = "-22.903539";
+									lon = "-43.209587";
+								},
+							);
+						},
+					);
+				},
+			);
+		},
+	);
+}

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AppDelegate.h
 //  PanoramioMania
 //
 //  Created by Hasan_Sawaed on 8/8/13.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GameController.h"
 
-@interface ViewController : UIViewController <GameControllerDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

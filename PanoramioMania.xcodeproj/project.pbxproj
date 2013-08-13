@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20DDC6617B57B0400C26A1D /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = A20DDC6517B57B0400C26A1D /* NSMutableArray+Shuffle.m */; };
 		A22356E817B3804100D23E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22356E717B3804100D23E7C /* Foundation.framework */; };
 		A22356EA17B3804100D23E7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22356E917B3804100D23E7C /* CoreGraphics.framework */; };
 		A22356EC17B3804100D23E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22356EB17B3804100D23E7C /* UIKit.framework */; };
@@ -21,6 +22,20 @@
 		A223570917B3804200D23E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22356EB17B3804100D23E7C /* UIKit.framework */; };
 		A223571117B3804200D23E7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A223570F17B3804200D23E7C /* InfoPlist.strings */; };
 		A223571317B3804200D23E7C /* PanoramioManiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A223571217B3804200D23E7C /* PanoramioManiaTests.m */; };
+		A223572D17B382DD00D23E7C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A223572B17B382DD00D23E7C /* icon.png */; };
+		A223572E17B382DD00D23E7C /* panoramio.png in Resources */ = {isa = PBXBuildFile; fileRef = A223572C17B382DD00D23E7C /* panoramio.png */; };
+		A223573317B3F05900D23E7C /* PanoramioController.m in Sources */ = {isa = PBXBuildFile; fileRef = A223573017B3F05900D23E7C /* PanoramioController.m */; };
+		A223573417B3F05900D23E7C /* panoramioObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A223573217B3F05900D23E7C /* panoramioObject.m */; };
+		A223573717B3F06F00D23E7C /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A223573617B3F06F00D23E7C /* AsyncImageView.m */; };
+		A23EDCB717B5A06200B1F695 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = A23EDCB617B5A06200B1F695 /* GameController.m */; };
+		A2A8C67417B437DD0042EA88 /* PanoramioMania.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2A8C67317B437DD0042EA88 /* PanoramioMania.plist */; };
+		A2A8C67717B43D150042EA88 /* PanoramioModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2A8C67517B43D150042EA88 /* PanoramioModel.xcdatamodeld */; };
+		A2A8C67A17B43EC70042EA88 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A8C67917B43EC70042EA88 /* Location.m */; };
+		A2A8C67D17B43EC80042EA88 /* Continent.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A8C67C17B43EC80042EA88 /* Continent.m */; };
+		A2A8C68017B43EC80042EA88 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A8C67F17B43EC80042EA88 /* City.m */; };
+		A2A8C68317B43EC80042EA88 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A8C68217B43EC80042EA88 /* Country.m */; };
+		A2A8C68D17B45A9C0042EA88 /* PanoramioDataModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A8C68C17B45A9C0042EA88 /* PanoramioDataModelController.m */; };
+		A2A8C68E17B45A9C0042EA88 /* PanoramioDataModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A8C68C17B45A9C0042EA88 /* PanoramioDataModelController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A20DDC6417B57B0400C26A1D /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		A20DDC6517B57B0400C26A1D /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
 		A22356E417B3804100D23E7C /* PanoramioMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanoramioMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22356E717B3804100D23E7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A22356E917B3804100D23E7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +70,28 @@
 		A223570E17B3804200D23E7C /* PanoramioManiaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanoramioManiaTests-Info.plist"; sourceTree = "<group>"; };
 		A223571017B3804200D23E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A223571217B3804200D23E7C /* PanoramioManiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanoramioManiaTests.m; sourceTree = "<group>"; };
+		A223572B17B382DD00D23E7C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A223572C17B382DD00D23E7C /* panoramio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panoramio.png; sourceTree = "<group>"; };
+		A223572F17B3F05900D23E7C /* PanoramioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramioController.h; sourceTree = "<group>"; };
+		A223573017B3F05900D23E7C /* PanoramioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramioController.m; sourceTree = "<group>"; };
+		A223573117B3F05900D23E7C /* panoramioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = panoramioObject.h; sourceTree = "<group>"; };
+		A223573217B3F05900D23E7C /* panoramioObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = panoramioObject.m; sourceTree = "<group>"; };
+		A223573517B3F06F00D23E7C /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		A223573617B3F06F00D23E7C /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		A23EDCB517B5A06200B1F695 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		A23EDCB617B5A06200B1F695 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		A2A8C67317B437DD0042EA88 /* PanoramioMania.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PanoramioMania.plist; path = PanoramioMania/PanoramioMania.plist; sourceTree = "<group>"; };
+		A2A8C67617B43D150042EA88 /* PanoramioModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PanoramioModel.xcdatamodel; sourceTree = "<group>"; };
+		A2A8C67817B43EC70042EA88 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		A2A8C67917B43EC70042EA88 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		A2A8C67B17B43EC80042EA88 /* Continent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Continent.h; sourceTree = "<group>"; };
+		A2A8C67C17B43EC80042EA88 /* Continent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Continent.m; sourceTree = "<group>"; };
+		A2A8C67E17B43EC80042EA88 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		A2A8C67F17B43EC80042EA88 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		A2A8C68117B43EC80042EA88 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		A2A8C68217B43EC80042EA88 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		A2A8C68B17B45A9C0042EA88 /* PanoramioDataModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanoramioDataModelController.h; path = PanoramioMania/PanoramioDataModelController.h; sourceTree = "<group>"; };
+		A2A8C68C17B45A9C0042EA88 /* PanoramioDataModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PanoramioDataModelController.m; path = PanoramioMania/PanoramioDataModelController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +156,10 @@
 				A22356F917B3804100D23E7C /* Main.storyboard */,
 				A22356FC17B3804100D23E7C /* ViewController.h */,
 				A22356FD17B3804100D23E7C /* ViewController.m */,
-				A22356FF17B3804100D23E7C /* Images.xcassets */,
+				A23EDCB517B5A06200B1F695 /* GameController.h */,
+				A23EDCB617B5A06200B1F695 /* GameController.m */,
+				A223572A17B3820400D23E7C /* PanoramioModel */,
+				A2A8C68417B43EF80042EA88 /* PanoramioDataModel */,
 				A22356EE17B3804100D23E7C /* Supporting Files */,
 			);
 			path = PanoramioMania;
@@ -126,6 +168,13 @@
 		A22356EE17B3804100D23E7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A22356FF17B3804100D23E7C /* Images.xcassets */,
+				A223573517B3F06F00D23E7C /* AsyncImageView.h */,
+				A223573617B3F06F00D23E7C /* AsyncImageView.m */,
+				A20DDC6417B57B0400C26A1D /* NSMutableArray+Shuffle.h */,
+				A20DDC6517B57B0400C26A1D /* NSMutableArray+Shuffle.m */,
+				A223572B17B382DD00D23E7C /* icon.png */,
+				A223572C17B382DD00D23E7C /* panoramio.png */,
 				A22356EF17B3804100D23E7C /* PanoramioMania-Info.plist */,
 				A22356F017B3804100D23E7C /* InfoPlist.strings */,
 				A22356F317B3804100D23E7C /* main.m */,
@@ -150,6 +199,37 @@
 				A223570F17B3804200D23E7C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A223572A17B3820400D23E7C /* PanoramioModel */ = {
+			isa = PBXGroup;
+			children = (
+				A223572F17B3F05900D23E7C /* PanoramioController.h */,
+				A223573017B3F05900D23E7C /* PanoramioController.m */,
+				A223573117B3F05900D23E7C /* panoramioObject.h */,
+				A223573217B3F05900D23E7C /* panoramioObject.m */,
+			);
+			name = PanoramioModel;
+			sourceTree = "<group>";
+		};
+		A2A8C68417B43EF80042EA88 /* PanoramioDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A2A8C68B17B45A9C0042EA88 /* PanoramioDataModelController.h */,
+				A2A8C68C17B45A9C0042EA88 /* PanoramioDataModelController.m */,
+				A2A8C67317B437DD0042EA88 /* PanoramioMania.plist */,
+				A2A8C67517B43D150042EA88 /* PanoramioModel.xcdatamodeld */,
+				A2A8C67B17B43EC80042EA88 /* Continent.h */,
+				A2A8C67C17B43EC80042EA88 /* Continent.m */,
+				A2A8C68117B43EC80042EA88 /* Country.h */,
+				A2A8C68217B43EC80042EA88 /* Country.m */,
+				A2A8C67E17B43EC80042EA88 /* City.h */,
+				A2A8C67F17B43EC80042EA88 /* City.m */,
+				A2A8C67817B43EC70042EA88 /* Location.h */,
+				A2A8C67917B43EC70042EA88 /* Location.m */,
+			);
+			name = PanoramioDataModel;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +279,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Hasan_Sawaed;
 				TargetAttributes = {
+					A22356E317B3804100D23E7C = {
+						DevelopmentTeam = A3JC2SBNCR;
+					};
 					A223570417B3804200D23E7C = {
 						TestTargetID = A22356E317B3804100D23E7C;
 					};
@@ -228,6 +311,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A8C67417B437DD0042EA88 /* PanoramioMania.plist in Resources */,
+				A223572D17B382DD00D23E7C /* icon.png in Resources */,
+				A223572E17B382DD00D23E7C /* panoramio.png in Resources */,
 				A223570017B3804100D23E7C /* Images.xcassets in Resources */,
 				A22356F217B3804100D23E7C /* InfoPlist.strings in Resources */,
 				A22356FB17B3804100D23E7C /* Main.storyboard in Resources */,
@@ -249,9 +335,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A8C68D17B45A9C0042EA88 /* PanoramioDataModelController.m in Sources */,
 				A22356FE17B3804100D23E7C /* ViewController.m in Sources */,
+				A23EDCB717B5A06200B1F695 /* GameController.m in Sources */,
+				A2A8C67D17B43EC80042EA88 /* Continent.m in Sources */,
+				A223573417B3F05900D23E7C /* panoramioObject.m in Sources */,
+				A2A8C68317B43EC80042EA88 /* Country.m in Sources */,
+				A2A8C67717B43D150042EA88 /* PanoramioModel.xcdatamodeld in Sources */,
+				A2A8C68017B43EC80042EA88 /* City.m in Sources */,
+				A2A8C67A17B43EC70042EA88 /* Location.m in Sources */,
+				A223573717B3F06F00D23E7C /* AsyncImageView.m in Sources */,
 				A22356F817B3804100D23E7C /* AppDelegate.m in Sources */,
+				A20DDC6617B57B0400C26A1D /* NSMutableArray+Shuffle.m in Sources */,
 				A22356F417B3804100D23E7C /* main.m in Sources */,
+				A223573317B3F05900D23E7C /* PanoramioController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A8C68E17B45A9C0042EA88 /* PanoramioDataModelController.m in Sources */,
 				A223571317B3804200D23E7C /* PanoramioManiaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,10 +472,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PanoramioMania/PanoramioMania-Prefix.pch";
 				INFOPLIST_FILE = "PanoramioMania/PanoramioMania-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -387,10 +488,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PanoramioMania/PanoramioMania-Prefix.pch";
 				INFOPLIST_FILE = "PanoramioMania/PanoramioMania-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -454,6 +558,7 @@
 				A223571817B3804200D23E7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A223571917B3804200D23E7C /* Build configuration list for PBXNativeTarget "PanoramioManiaTests" */ = {
 			isa = XCConfigurationList;
@@ -462,8 +567,23 @@
 				A223571B17B3804200D23E7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2A8C67517B43D150042EA88 /* PanoramioModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2A8C67617B43D150042EA88 /* PanoramioModel.xcdatamodel */,
+			);
+			currentVersion = A2A8C67617B43D150042EA88 /* PanoramioModel.xcdatamodel */;
+			name = PanoramioModel.xcdatamodeld;
+			path = PanoramioMania/PanoramioModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A22356DC17B3804100D23E7C /* Project object */;
 }
